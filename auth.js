@@ -250,8 +250,8 @@ const studentData = {
         group: "未分组",
         grades: {
             regular: [
-                { date: "2月27 日", score: 0 },
-                { date: "3月6日", score: 0 },
+                { date: "2月27 日", score: 10 },
+                { date: "3月6日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -520,8 +520,8 @@ const studentData = {
         group: "未分组",
         grades: {
             regular: [
-                { date: "2月27 日", score: 0 },
-                { date: "3月6日", score: 0 },
+                { date: "2月27 日", score: 10 },
+                { date: "3月6日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -836,7 +836,7 @@ const studentData = {
         grades: {
             regular: [
                 { date: "2月27 日", score: 10 },
-                { date: "3月6日", score: 0 },
+                { date: "3月6日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1721,33 +1721,6 @@ if (studentIdSpan) {
             attendanceTbody.appendChild(tr);
         });
 
-        // 期中成绩（置空）
-        const midtermTbody = document.getElementById('midterm-tbody');
-        midtermTbody.innerHTML = '';
-        const midtermTr = document.createElement('tr');
-        midtermTr.innerHTML = `
-            <td>${student.grades.midterm.total}</td>
-            <td>${student.grades.midterm.questions[0]}</td>
-            <td>${student.grades.midterm.questions[1]}</td>
-            <td>${student.grades.midterm.questions[2]}</td>
-            <td>${student.grades.midterm.questions[3]}</td>
-            <td>${student.grades.midterm.questions[4]}</td>
-        `;
-        midtermTbody.appendChild(midtermTr);
-
-        // 期末成绩（置空）
-        const finalTbody = document.getElementById('final-tbody');
-        finalTbody.innerHTML = '';
-        const finalTr = document.createElement('tr');
-        finalTr.innerHTML = `
-            <td>${student.grades.final.total}</td>
-            <td>${student.grades.final.questions[0]}</td>
-            <td>${student.grades.final.questions[1]}</td>
-            <td>${student.grades.final.questions[2]}</td>
-            <td>${student.grades.final.questions[3]}</td>
-            <td>${student.grades.final.questions[4]}</td>
-        `;
-        finalTbody.appendChild(finalTr);
     }
 }
 
