@@ -780,7 +780,7 @@ const studentData = {
             regular: [
                 { date: "2月27 日", score: 10 },
                 { date: "3月6日", score: 10 },
-                { date: "3月13日", score: 0 },
+                { date: "3月13日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -797,7 +797,7 @@ const studentData = {
             regular: [
                 { date: "2月27 日", score: 10 },
                 { date: "3月6日", score: 10 },
-                { date: "3月13日", score: 0 },
+                { date: "3月13日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -818,7 +818,7 @@ const studentData = {
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
-                { date: "3月20日", score: 0 },
+                { date: "3月20日", score: 10 },
             ],
             midterm: { total: 0, questions: [0, 0, 0, 0, 0] },
             final: { total: 0, questions: [0, 0, 0, 0, 0] }
@@ -865,7 +865,7 @@ const studentData = {
             regular: [
                 { date: "2月27 日", score: 10 },
                 { date: "3月6日", score: 10 },
-                { date: "3月13日", score: 0 },
+                { date: "3月13日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -1018,7 +1018,7 @@ const studentData = {
             regular: [
                 { date: "2月27 日", score: 10 },
                 { date: "3月6日", score: 10 },
-                { date: "3月13日", score: 0 },
+                { date: "3月13日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1052,7 +1052,7 @@ const studentData = {
             regular: [
                 { date: "2月27 日", score: 10 },
                 { date: "3月6日", score: 10 },
-                { date: "3月13日", score: 0 },
+                { date: "3月13日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -1137,7 +1137,7 @@ const studentData = {
             regular: [
                 { date: "2月27 日", score: 9 },
                 { date: "3月6日", score: 10 },
-                { date: "3月13日", score: 0 },
+                { date: "3月13日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -1205,7 +1205,7 @@ const studentData = {
             regular: [
                 { date: "2月27 日", score: 10 },
                 { date: "3月6日", score: 10 },
-                { date: "3月13日", score: 0 },
+                { date: "3月13日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -1222,7 +1222,7 @@ const studentData = {
             regular: [
                 { date: "2月27 日", score: 10 },
                 { date: "3月6日", score: 10 },
-                { date: "3月13日", score: 0 },
+                { date: "3月13日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 9 },
@@ -1340,7 +1340,7 @@ const studentData = {
         grades: {
             regular: [
                 { date: "2月27 日", score: 10 },
-                { date: "3月6日", score: 0 },
+                { date: "3月6日", score: 10 },
                 { date: "3月13日", score: 0 },
             ],
             attendance: [
@@ -1443,7 +1443,7 @@ const studentData = {
             regular: [
                 { date: "2月27 日", score: 10 },
                 { date: "3月6日", score: 10 },
-                { date: "3月13日", score: 0 },
+                { date: "3月13日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1715,7 +1715,7 @@ const studentData = {
             regular: [
                 { date: "2月27 日", score: 10 },
                 { date: "3月6日", score: 10 },
-                { date: "3月13日", score: 0 },
+                { date: "3月13日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
