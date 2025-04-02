@@ -1701,7 +1701,6 @@ if (studentIdSpan) {
         const student = studentData[loggedInStudent];
         document.getElementById('student-id').textContent = loggedInStudent;
         document.getElementById('student-name').textContent = student.name;
-        document.getElementById('student-group').textContent = student.group;
 
         // 平时成绩
         const regularTbody = document.getElementById('regular-tbody');
