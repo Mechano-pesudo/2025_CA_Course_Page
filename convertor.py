@@ -33,7 +33,6 @@ with open('students.csv', 'r', encoding='utf-8') as file:
         if studentId not in studentData:
             studentData[studentId] = {
                 'name': name,
-                'group': '未分组',  # 未提供分组，设默认值
                 'grades': {
                     'regular': [],
                     'attendance': [],
@@ -90,7 +89,6 @@ js_code += "const studentData = {\n"
 for studentId, data in studentData.items():
     js_code += f'    "{studentId}": {{\n'
     js_code += f'        name: "{data["name"]}",\n'
-    js_code += f'        group: "{data["group"]}",\n'
     js_code += f'        grades: {{\n'
     
     js_code += f'            regular: [\n'
@@ -102,9 +100,6 @@ for studentId, data in studentData.items():
     for g in data['grades']['attendance']:
         js_code += f'                {{ date: "{g["date"]}", score: {g["score"]} }},\n'
     js_code += f'            ],\n'
-    
-    js_code += f'            midterm: {{ total: {data["grades"]["midterm"]["total"]}, questions: {data["grades"]["midterm"]["questions"]} }},\n'
-    js_code += f'            final: {{ total: {data["grades"]["final"]["total"]}, questions: {data["grades"]["final"]["questions"]} }}\n'
     
     js_code += f'        }}\n'
     js_code += f'    }},\n'
