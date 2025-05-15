@@ -2,10 +2,8 @@
 
 // 用户和密码
 const students = {
-    "PB19000080": "PB19000080",
     "PB19071413": "PB19071413",
     "PB19071421": "PB19071421",
-    "PB20050983": "PB20050983",
     "PB20061365": "PB20061365",
     "PB21151790": "PB21151790",
     "PB22010291": "PB22010291",
@@ -84,13 +82,11 @@ const students = {
     "PB23151757": "PB23151757",
     "PB23151765": "PB23151765",
     "PB23151766": "PB23151766",
-    "PB23151767": "PB23151767",
     "PB23151776": "PB23151776",
     "PB23151785": "PB23151785",
     "PB23151790": "PB23151790",
     "PB23151792": "PB23151792",
     "PB23151794": "PB23151794",
-    "PB23151797": "PB23151797",
     "PB23151800": "PB23151800",
     "PB23151801": "PB23151801",
     "PB23151805": "PB23151805",
@@ -110,28 +106,6 @@ const students = {
 
 // 学生信息和成绩数据
 const studentData = {
-    "PB19000080": {
-        name: "王家华",
-        grades: {
-            regular: [
-                { date: "2月27 日", score: 0 },
-                { date: "3月6日", score: 0 },
-                { date: "3月13日", score: 0 },
-                { date: "3月20日", score: 0 },
-                { date: "3月27日", score: 0 },
-                { date: "4月3日", score: 0 },
-                { date: "4月10日", score: 0 },
-                { date: "4月17日", score: 0 },
-                { date: "4月24日", score: 0 },
-            ],
-            attendance: [
-                { date: "3月4日", score: 0 },
-                { date: "3月20日", score: 0 },
-                { date: "4月1日", score: 0 },
-                { date: "4月15日", score: 0 },
-            ],
-        }
-    },
     "PB19071413": {
         name: "袁忠豪",
         grades: {
@@ -145,6 +119,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -167,28 +142,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
-            ],
-            attendance: [
-                { date: "3月4日", score: 0 },
-                { date: "3月20日", score: 0 },
-                { date: "4月1日", score: 0 },
-                { date: "4月15日", score: 0 },
-            ],
-        }
-    },
-    "PB20050983": {
-        name: "姜涛",
-        grades: {
-            regular: [
-                { date: "2月27 日", score: 0 },
-                { date: "3月6日", score: 0 },
-                { date: "3月13日", score: 0 },
-                { date: "3月20日", score: 0 },
-                { date: "3月27日", score: 0 },
-                { date: "4月3日", score: 0 },
-                { date: "4月10日", score: 0 },
-                { date: "4月17日", score: 0 },
-                { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -208,9 +162,10 @@ const studentData = {
                 { date: "3月20日", score: 0 },
                 { date: "3月27日", score: 0 },
                 { date: "4月3日", score: 10 },
-                { date: "4月10日", score: 0 },
+                { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -232,7 +187,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -252,9 +208,10 @@ const studentData = {
                 { date: "3月20日", score: 10 },
                 { date: "3月27日", score: 10 },
                 { date: "4月3日", score: 10 },
-                { date: "4月10日", score: 0 },
+                { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -274,9 +231,10 @@ const studentData = {
                 { date: "3月20日", score: 10 },
                 { date: "3月27日", score: 10 },
                 { date: "4月3日", score: 10 },
-                { date: "4月10日", score: 0 },
+                { date: "4月10日", score: 9 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -298,7 +256,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -318,9 +277,10 @@ const studentData = {
                 { date: "3月20日", score: 10 },
                 { date: "3月27日", score: 10 },
                 { date: "4月3日", score: 10 },
-                { date: "4月10日", score: 0 },
+                { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -343,6 +303,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -364,7 +325,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -387,6 +349,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -409,6 +372,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -430,7 +394,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -451,8 +416,9 @@ const studentData = {
                 { date: "3月27日", score: 10 },
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
-                { date: "4月17日", score: 0 },
+                { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -474,7 +440,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -497,6 +464,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -519,6 +487,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -541,6 +510,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -562,7 +532,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -581,10 +552,11 @@ const studentData = {
                 { date: "3月13日", score: 8 },
                 { date: "3月20日", score: 10 },
                 { date: "3月27日", score: 9 },
-                { date: "4月3日", score: 0 },
-                { date: "4月10日", score: 0 },
-                { date: "4月17日", score: 0 },
-                { date: "4月24日", score: 0 },
+                { date: "4月3日", score: 8 },
+                { date: "4月10日", score: 8 },
+                { date: "4月17日", score: 10 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -606,7 +578,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -629,6 +602,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -647,10 +621,11 @@ const studentData = {
                 { date: "3月13日", score: 10 },
                 { date: "3月20日", score: 10 },
                 { date: "3月27日", score: 10 },
-                { date: "4月3日", score: 0 },
+                { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
-                { date: "4月17日", score: 0 },
-                { date: "4月24日", score: 0 },
+                { date: "4月17日", score: 10 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -671,8 +646,9 @@ const studentData = {
                 { date: "3月27日", score: 10 },
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 9 },
-                { date: "4月17日", score: 0 },
-                { date: "4月24日", score: 0 },
+                { date: "4月17日", score: 10 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -692,9 +668,10 @@ const studentData = {
                 { date: "3月20日", score: 10 },
                 { date: "3月27日", score: 10 },
                 { date: "4月3日", score: 10 },
-                { date: "4月10日", score: 0 },
-                { date: "4月17日", score: 0 },
-                { date: "4月24日", score: 0 },
+                { date: "4月10日", score: 10 },
+                { date: "4月17日", score: 10 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -717,6 +694,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -739,6 +717,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -759,8 +738,9 @@ const studentData = {
                 { date: "3月27日", score: 10 },
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
-                { date: "4月17日", score: 0 },
-                { date: "4月24日", score: 0 },
+                { date: "4月17日", score: 10 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -782,7 +762,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -803,8 +784,9 @@ const studentData = {
                 { date: "3月27日", score: 9 },
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
-                { date: "4月17日", score: 0 },
+                { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -827,6 +809,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -849,6 +832,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -871,6 +855,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -893,12 +878,13 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
                 { date: "3月20日", score: 10 },
                 { date: "4月1日", score: 0 },
-                { date: "4月15日", score: 10 },
+                { date: "4月15日", score: 0 },
             ],
         }
     },
@@ -913,8 +899,9 @@ const studentData = {
                 { date: "3月27日", score: 10 },
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 9 },
-                { date: "4月17日", score: 0 },
+                { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -935,8 +922,9 @@ const studentData = {
                 { date: "3月27日", score: 10 },
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
-                { date: "4月17日", score: 0 },
+                { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -959,6 +947,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -981,6 +970,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -1002,7 +992,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1025,6 +1016,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1045,8 +1037,9 @@ const studentData = {
                 { date: "3月27日", score: 9 },
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
-                { date: "4月17日", score: 0 },
+                { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1068,7 +1061,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 9 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -1091,6 +1085,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -1113,6 +1108,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 9 },
@@ -1135,6 +1131,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1156,7 +1153,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1179,6 +1177,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1201,6 +1200,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1222,7 +1222,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1243,8 +1244,9 @@ const studentData = {
                 { date: "3月27日", score: 10 },
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 9 },
-                { date: "4月17日", score: 0 },
+                { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 9 },
@@ -1265,8 +1267,9 @@ const studentData = {
                 { date: "3月27日", score: 9 },
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
-                { date: "4月17日", score: 0 },
+                { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1287,8 +1290,9 @@ const studentData = {
                 { date: "3月27日", score: 10 },
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
-                { date: "4月17日", score: 0 },
-                { date: "4月24日", score: 0 },
+                { date: "4月17日", score: 10 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1310,7 +1314,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1333,6 +1338,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -1355,6 +1361,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1377,6 +1384,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1399,6 +1407,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1421,6 +1430,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1441,8 +1451,9 @@ const studentData = {
                 { date: "3月27日", score: 9 },
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
-                { date: "4月17日", score: 0 },
-                { date: "4月24日", score: 0 },
+                { date: "4月17日", score: 10 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -1465,6 +1476,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1487,6 +1499,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1509,6 +1522,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1528,9 +1542,10 @@ const studentData = {
                 { date: "3月20日", score: 10 },
                 { date: "3月27日", score: 10 },
                 { date: "4月3日", score: 10 },
-                { date: "4月10日", score: 0 },
+                { date: "4月10日", score: 8 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -1553,6 +1568,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 9 },
@@ -1575,6 +1591,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -1596,7 +1613,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1618,7 +1636,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1641,6 +1660,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1663,6 +1683,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1685,6 +1706,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -1705,8 +1727,9 @@ const studentData = {
                 { date: "3月27日", score: 10 },
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
-                { date: "4月17日", score: 0 },
+                { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1728,7 +1751,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1750,7 +1774,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1773,6 +1798,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1795,6 +1821,7 @@ const studentData = {
                 { date: "4月10日", score: 9 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1817,6 +1844,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1839,6 +1867,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1861,6 +1890,7 @@ const studentData = {
                 { date: "4月10日", score: 9 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1882,7 +1912,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1900,39 +1931,18 @@ const studentData = {
                 { date: "3月6日", score: 10 },
                 { date: "3月13日", score: 9 },
                 { date: "3月20日", score: 9 },
-                { date: "3月27日", score: 0 },
-                { date: "4月3日", score: 0 },
-                { date: "4月10日", score: 0 },
-                { date: "4月17日", score: 0 },
+                { date: "3月27日", score: 8 },
+                { date: "4月3日", score: 8 },
+                { date: "4月10日", score: 8 },
+                { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
                 { date: "3月20日", score: 10 },
                 { date: "4月1日", score: 0 },
                 { date: "4月15日", score: 10 },
-            ],
-        }
-    },
-    "PB23151767": {
-        name: "叶之萌",
-        grades: {
-            regular: [
-                { date: "2月27 日", score: 0 },
-                { date: "3月6日", score: 0 },
-                { date: "3月13日", score: 0 },
-                { date: "3月20日", score: 0 },
-                { date: "3月27日", score: 0 },
-                { date: "4月3日", score: 0 },
-                { date: "4月10日", score: 0 },
-                { date: "4月17日", score: 0 },
-                { date: "4月24日", score: 0 },
-            ],
-            attendance: [
-                { date: "3月4日", score: 0 },
-                { date: "3月20日", score: 0 },
-                { date: "4月1日", score: 0 },
-                { date: "4月15日", score: 0 },
             ],
         }
     },
@@ -1949,6 +1959,7 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -1971,6 +1982,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -1993,6 +2005,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 9 },
@@ -2015,6 +2028,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -2037,34 +2051,13 @@ const studentData = {
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
                 { date: "3月20日", score: 10 },
                 { date: "4月1日", score: 10 },
                 { date: "4月15日", score: 10 },
-            ],
-        }
-    },
-    "PB23151797": {
-        name: "张佳丽*",
-        grades: {
-            regular: [
-                { date: "2月27 日", score: 0 },
-                { date: "3月6日", score: 0 },
-                { date: "3月13日", score: 0 },
-                { date: "3月20日", score: 0 },
-                { date: "3月27日", score: 0 },
-                { date: "4月3日", score: 0 },
-                { date: "4月10日", score: 0 },
-                { date: "4月17日", score: 0 },
-                { date: "4月24日", score: 0 },
-            ],
-            attendance: [
-                { date: "3月4日", score: 0 },
-                { date: "3月20日", score: 0 },
-                { date: "4月1日", score: 0 },
-                { date: "4月15日", score: 0 },
             ],
         }
     },
@@ -2081,6 +2074,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -2103,6 +2097,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -2125,6 +2120,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -2147,6 +2143,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -2169,6 +2166,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 9 },
@@ -2189,8 +2187,9 @@ const studentData = {
                 { date: "3月27日", score: 10 },
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
-                { date: "4月17日", score: 0 },
-                { date: "4月24日", score: 0 },
+                { date: "4月17日", score: 8 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -2213,6 +2212,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -2231,10 +2231,11 @@ const studentData = {
                 { date: "3月13日", score: 10 },
                 { date: "3月20日", score: 10 },
                 { date: "3月27日", score: 10 },
-                { date: "4月3日", score: 0 },
-                { date: "4月10日", score: 0 },
+                { date: "4月3日", score: 10 },
+                { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -2253,10 +2254,11 @@ const studentData = {
                 { date: "3月13日", score: 10 },
                 { date: "3月20日", score: 10 },
                 { date: "3月27日", score: 10 },
-                { date: "4月3日", score: 0 },
+                { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 0 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -2279,6 +2281,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -2301,6 +2304,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -2323,6 +2327,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -2345,6 +2350,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
@@ -2367,6 +2373,7 @@ const studentData = {
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 0 },
                 { date: "4月24日", score: 0 },
+                { date: "4月30日", score: 0 },
             ],
             attendance: [
                 { date: "3月4日", score: 0 },
@@ -2388,7 +2395,8 @@ const studentData = {
                 { date: "4月3日", score: 10 },
                 { date: "4月10日", score: 10 },
                 { date: "4月17日", score: 10 },
-                { date: "4月24日", score: 0 },
+                { date: "4月24日", score: 10 },
+                { date: "4月30日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
