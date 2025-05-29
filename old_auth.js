@@ -1368,7 +1368,7 @@ const studentData = {
                 { date: "4月17日", score: 10 },
                 { date: "4月24日", score: 10 },
                 { date: "4月30日", score: 10 },
-                { date: "5月6日", score: 0 },
+                { date: "5月6日", score: 10 },
             ],
             attendance: [
                 { date: "3月4日", score: 10 },
